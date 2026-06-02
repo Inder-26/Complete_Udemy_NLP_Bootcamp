@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Modern Flask App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* --- Root Variables (Same as modern.html) --- */
+        :root {
+            --bg-color: #121212;
+            --surface-color: #1e1e1e;
+            --primary-color: #bb86fc;
+            --secondary-color: #03dac6;
+            --text-color: #e0e0e0;
+            --text-muted: #888;
+            --gradient-start: #8e2de2;
+            --gradient-end: #4a00e0;
+            --border-radius: 12px;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.7;
+        }
+
+        /* --- Navbar (Same as modern.html) --- */
+        .navbar {
+            background: rgba(30, 30, 30, 0.7);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .navbar-nav a {
+            color: var(--text-muted);
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            transition: color 0.3s ease;
+        }
+
+        .navbar-nav a:hover {
+            color: var(--text-color);
+        }
+        
+        /* This is new - highlights the current page */
+        .navbar-nav a[href="/about"] {
+            color: var(--secondary-color);
+            font-weight: 500;
+        }
+
+        /* --- Main Container (Same as modern.html) --- */
+        .container {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        /* --- Hero Section (Re-used for page title) --- */
+        .hero {
+            text-align: center;
+            padding: 4rem 2rem;
+            border-radius: var(--border-radius);
+            margin-bottom: 3rem;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            background: linear-gradient(45deg, var(--gradient-start), var(--gradient-end));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            font-weight: 300;
+            color: var(--text-muted);
+        }
+
+        /* --- New Content Block Style --- */
+        .content-block {
+            background: var(--surface-color);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            margin-bottom: 2rem;
+        }
+
+        .content-block h2 {
+            margin-top: 0;
+            color: var(--secondary-color);
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 0.5rem;
+            display: inline-block;
+        }
+
+        .content-block p, .content-block li {
+            font-size: 1.05rem;
+            color: var(--text-muted);
+        }
+
+        .content-block ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        .content-block li {
+            position: relative;
+            padding-left: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Custom bullet points */
+        .content-block li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: var(--secondary-color);
+            font-weight: bold;
+        }
+        
+        /* --- Team Section (Re-using card styles) --- */
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 500;
+            color: var(--primary-color);
+            margin-bottom: 2rem;
+        }
+        
+        .content-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .card {
+            background: rgba(30, 30, 30, 0.5);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: var(--border-radius);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            padding: 1.5rem;
+            text-align: center;
+        }
+        
+        .card h3 {
+            margin-top: 0;
+            font-weight: 500;
+            color: var(--text-color);
+        }
+        
+        .card p {
+            font-size: 0.95rem;
+            color: var(--secondary-color);
+            font-weight: 500;
+        }
+
+        /* --- Footer (Same as modern.html) --- */
+        .footer {
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+            color: var(--text-muted);
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="/" class="navbar-brand">Flask/Modern</a>
+        <nav class="navbar-nav">
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/profile">Profile</a>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <section class="hero">
+            <h1>About Our Project</h1>
+            <p>Learn more about our mission, our values, and the team.</p>
+        </section>
+
+        <section class="content-block">
+            <h2>Our Mission</h2>
+            <p>Our goal is to demonstrate the power and flexibility of the Flask framework by building modern, responsive, and beautiful web applications. We believe that learning to code should be an engaging and visually rewarding experience.</p>
+        </section>
+        
+        <section class="content-block">
+            <h2>Our Values</h2>
+            <ul>
+                <li><strong>Simplicity:</strong> We use clean, readable, and maintainable code.</li>
+                <li><strong>Modern Design:</strong> We believe aesthetics matter. Our UIs are built with modern design principles.</li>
+                <li><strong>Performance:</strong> Our applications are lightweight and fast, powered by Flask's minimal core.</li>
+            </ul>
+        </section>
+
+        <section class="team-section">
+            <h2 class="section-title">Meet the Team</h2>
+            <div class="content-grid">
+                <article class="card">
+                    <h3>Alex Johnson</h3>
+                    <p>Backend Developer (Flask)</p>
+                </article>
+                <article class="card">
+                    <h3>Maria Garcia</h3>
+                    <p>Frontend Developer (CSS)</p>
+                </article>
+                <article class="card">
+                    <h3>Sam Lee</h3>
+                    <p>Project Manager</p>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Your App. Built with Flask.</p>
+    </footer>
+
+</body>
+</html>

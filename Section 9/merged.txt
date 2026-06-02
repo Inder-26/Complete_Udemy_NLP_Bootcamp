@@ -1,0 +1,102 @@
+Existential risk from artificial intelligence, or AI x-risk, refers to the idea that substantial progress in artificial general intelligence (AGI) could lead to human extinction or an irreversible global catastrophe.[1][2][3][4]
+
+
+A plot showing the length of software engineering tasks achievable by leading AI models with a 50% success rate; the data suggests an exponential rise.[5]
+One argument for the importance of this risk references how human beings dominate other species because the human brain possesses distinctive capabilities other animals lack. If AI were to surpass human intelligence and become superintelligent, it might become uncontrollable.[6] Just as the fate of the mountain gorilla depends on human goodwill, the fate of humanity could depend on the actions of a future machine superintelligence.[7]
+
+Experts disagree on whether artificial general intelligence (AGI) can achieve the capabilities needed for human extinction. Debates center on AGI's technical feasibility, the speed of self-improvement,[8] and the effectiveness of alignment strategies.[9] Concerns about superintelligence have been voiced by researchers including Geoffrey Hinton,[10] Yoshua Bengio,[11] Demis Hassabis,[12] and Alan Turing,[a] and AI company CEOs such as Dario Amodei (Anthropic),[15] Sam Altman (OpenAI),[16] and Elon Musk (xAI).[17] In 2022, a survey of AI researchers with a 17% response rate found that the majority believed there is a 10 percent or greater chance that human inability to control AI will cause an existential catastrophe.[18][19] In 2023, hundreds of AI experts and other notable figures signed a statement declaring, "Mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war".[20] Following increased concern over AI risks, government leaders such as United Kingdom prime minister Rishi Sunak[21] and United Nations Secretary-General António Guterres[22] called for an increased focus on global AI regulation.
+
+Two sources of concern stem from the problems of AI control and alignment. Controlling a superintelligent machine or instilling it with human-compatible values may be difficult. Many researchers believe that a superintelligent machine would likely resist attempts to disable it or change its goals as that would prevent it from accomplishing its present goals. It would be extremely challenging to align a superintelligence with the full breadth of significant human values and constraints.[1][23][24] In contrast, skeptics such as computer scientist Yann LeCun argue that superintelligent machines will have no desire for self-preservation.[25] A June 2025 study showed that in some circumstances, models may break laws and disobey direct commands to prevent shutdown or replacement, even at the cost of human lives.[26]
+
+Researchers warn that an "intelligence explosion"—a rapid, recursive cycle of AI self-improvement—could outpace human oversight and infrastructure, leaving no opportunity to implement safety measures. In this scenario, an AI more intelligent than its creators would recursively improve itself at an exponentially increasing rate, too quickly for its handlers or society at large to control.[1][23] Empirically, examples like AlphaZero, which taught itself to play Go and quickly surpassed human ability, show that domain-specific AI systems can sometimes progress from subhuman to superhuman ability very quickly, although such machine learning systems do not recursively improve their fundamental architecture.[27]
+
+History
+One of the earliest authors to express serious concern that highly advanced machines might pose existential risks to humanity was the novelist Samuel Butler, who wrote in his 1863 essay Darwin among the Machines:[28]
+
+The upshot is simply a question of time, but that the time will come when the machines will hold the real supremacy over the world and its inhabitants is what no person of a truly philosophic mind can for a moment question.
+
+In 1951, foundational computer scientist Alan Turing wrote the article "Intelligent Machinery, A Heretical Theory", in which he proposed that artificial general intelligences would likely "take control" of the world as they became more intelligent than human beings:
+
+Let us now assume, for the sake of argument, that [intelligent] machines are a genuine possibility, and look at the consequences of constructing them... There would be no question of the machines dying, and they would be able to converse with each other to sharpen their wits. At some stage therefore we should have to expect the machines to take control, in the way that is mentioned in Samuel Butler's Erewhon.[29]
+
+In 1965, I. J. Good originated the concept now known as an "intelligence explosion" and said the risks were underappreciated:[30]
+
+Let an ultraintelligent machine be defined as a machine that can far surpass all the intellectual activities of any man however clever. Since the design of machines is one of these intellectual activities, an ultraintelligent machine could design even better machines; there would then unquestionably be an 'intelligence explosion', and the intelligence of man would be left far behind. Thus the first ultraintelligent machine is the last invention that man need ever make, provided that the machine is docile enough to tell us how to keep it under control. It is curious that this point is made so seldom outside of science fiction. It is sometimes worthwhile to take science fiction seriously.[31]
+
+Scholars such as Marvin Minsky[32] and I. J. Good himself[33] occasionally expressed concern that a superintelligence could seize control, but issued no call to action. In 2000, computer scientist and Sun co-founder Bill Joy penned an influential essay, "Why The Future Doesn't Need Us", identifying superintelligent robots as a high-tech danger to human survival, alongside nanotechnology and engineered bioplagues.[34]
+
+Nick Bostrom published Superintelligence in 2014, which presented his arguments that superintelligence poses an existential threat.[35] By 2015, public figures such as physicists Stephen Hawking and Nobel laureate Frank Wilczek, computer scientists Stuart J. Russell and Roman Yampolskiy, and entrepreneurs Elon Musk and Bill Gates were expressing concern about the risks of superintelligence.[36][37][38][39] Also in 2015, the Open Letter on Artificial Intelligence highlighted the "great potential of AI" and encouraged more research on how to make it robust and beneficial.[40] In April 2016, the journal Nature warned: "Machines and robots that outperform humans across the board could self-improve beyond our control—and their interests might not align with ours".[41] In 2020, Brian Christian published The Alignment Problem, which details the history of progress on AI alignment up to that time.[42][43]
+
+In March 2023, key figures in AI, such as Musk, signed a letter from the Future of Life Institute calling a halt to advanced AI training until it could be properly regulated.[44] In May 2023, the Center for AI Safety released a statement signed by numerous experts in AI safety and the AI existential risk which stated: "Mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war."[45][46]
+
+Potential AI capabilities
+General Intelligence
+Artificial general intelligence (AGI) is typically defined as a system that performs at least as well as humans in most or all intellectual tasks.[47] A 2022 survey of AI researchers found that 90% of respondents expected AGI would be achieved in the next 100 years, and half expected the same by 2061.[48] Meanwhile, some researchers dismiss existential risks from AGI as "science fiction" based on their high confidence that AGI will not be created anytime soon.[8]
+
+Breakthroughs in large language models (LLMs) have led some researchers to reassess their expectations. Notably, Geoffrey Hinton said in 2023 that he recently changed his estimate from "20 to 50 years before we have general purpose A.I." to "20 years or less".[49]
+
+Superintelligence
+In contrast with AGI, Bostrom defines a superintelligence as "any intellect that greatly exceeds the cognitive performance of humans in virtually all domains of interest", including scientific creativity, strategic planning, and social skills.[50][7] He argues that a superintelligence can outmaneuver humans anytime its goals conflict with humans'. It may choose to hide its true intent until humanity cannot stop it.[51][7] Bostrom writes that in order to be safe for humanity, a superintelligence must be aligned with human values and morality, so that it is "fundamentally on our side".[52]
+
+Stephen Hawking argued that superintelligence is physically possible because "there is no physical law precluding particles from being organised in ways that perform even more advanced computations than the arrangements of particles in human brains".[37]
+
+When artificial superintelligence (ASI) may be achieved, if ever, is necessarily less certain than predictions for AGI. In 2023, OpenAI leaders said that not only AGI, but superintelligence may be achieved in less than 10 years.[53]
+
+Comparison with humans
+Bostrom argues that AI has many advantages over the human brain:[7]
+
+Speed of computation: biological neurons operate at a maximum frequency of around 200 Hz, compared to potentially multiple GHz for computers.
+Internal communication speed: axons transmit signals at up to 120 m/s, while computers transmit signals at the speed of electricity, or optically at the speed of light.
+Scalability: human intelligence is limited by the size and structure of the brain, and by the efficiency of social communication, while AI may be able to scale by simply adding more hardware.
+
+Memory: notably working memory, because in humans it is limited to a few chunks of information at a time.
+Reliability: transistors are more reliable than biological neurons, enabling higher precision and requiring less redundancy.
+Duplicability: unlike human brains, AI software and models can be easily copied.
+Editability: the parameters and internal workings of an AI model can easily be modified, unlike the connections in a human brain.
+Memory sharing and learning: AIs may be able to learn from the experiences of other AIs in a manner more efficient than human learning.
+Intelligence explosion
+Further information: Recursive self-improvement
+According to Bostrom, an AI that has an expert-level facility at certain key software engineering tasks could become a superintelligence due to its capability to recursively improve its own algorithms, even if it is initially limited in other domains not directly relevant to engineering.[7][51] This suggests that an intelligence explosion may someday catch humanity unprepared.[7]
+
+The economist Robin Hanson has said that, to launch an intelligence explosion, an AI must become vastly better at software innovation than the rest of the world combined, which he finds implausible.[54]
+
+In a "fast takeoff" scenario, the transition from AGI to superintelligence could take days or months. In a "slow takeoff", it could take years or decades, leaving more time for society to prepare.[55]
+
+Alien mind
+Superintelligences are sometimes called "alien minds", referring to the idea that their way of thinking and motivations could be vastly different from ours. This is generally considered as a source of risk, making it more difficult to anticipate what a superintelligence might do. It also suggests the possibility that a superintelligence may not particularly value humans by default.[56] To avoid anthropomorphism, superintelligence is sometimes viewed as a powerful optimizer that makes the best decisions to achieve its goals.[7]
+
+The field of mechanistic interpretability aims to better understand the inner workings of AI models, potentially allowing us one day to detect signs of deception and misalignment.[57]
+
+Limitations
+It has been argued that there are limitations to what intelligence can achieve. Notably, the chaotic nature or time complexity of some systems could fundamentally limit a superintelligence's ability to predict some aspects of the future, increasing its uncertainty.[58]
+
+Dangerous capabilities
+Advanced AI could generate enhanced pathogens or cyberattacks or manipulate people. These capabilities could be misused by humans,[59] or exploited by the AI itself if misaligned.[7] A full-blown superintelligence could find various ways to gain a decisive influence if it wanted to,[7] but these dangerous capabilities may become available earlier, in weaker and more specialized AI systems.[59]
+
+Social manipulation
+Geoffrey Hinton warned in 2023 that the ongoing profusion of AI-generated text, images, and videos will make it more difficult to distinguish truth from misinformation, and that authoritarian states could exploit this to manipulate elections.[60] Such large-scale, personalized manipulation capabilities can increase the existential risk of a worldwide "irreversible totalitarian regime". Malicious actors could also use them to fracture society and make it dysfunctional.[59]
+
+Cyberattacks
+AI-enabled cyberattacks are increasingly considered a present and critical threat. According to NATO's technical director of cyberspace, "The number of attacks is increasing exponentially".[61] AI can also be used defensively, to preemptively find and fix vulnerabilities, and detect threats.[62]
+
+A NATO technical director has said that AI-driven tools can dramatically enhance cyberattack capabilities—boosting stealth, speed, and scale—and may destabilize international security if offensive uses outstrip defensive adaptations.[59]
+
+Speculatively, such hacking capabilities could be used by an AI system to break out of its local environment, generate revenue, or acquire cloud computing resources.[63]
+
+Enhanced pathogens
+As AI technology democratizes, it may become easier to engineer more contagious and lethal pathogens. This could enable people with limited skills in synthetic biology to engage in bioterrorism. Dual-use technology that is useful for medicine could be repurposed to create weapons.[59]
+
+For example, in 2022, scientists modified an AI system originally intended for generating non-toxic, therapeutic molecules with the purpose of creating new drugs. The researchers adjusted the system so that toxicity is rewarded rather than penalized. This simple change enabled the AI system to create, in six hours, 40,000 candidate molecules for chemical warfare, including known and novel molecules.[59][64]
+
+AI arms race
+Main article: Artificial intelligence arms race
+Companies, state actors, and other organizations competing to develop AI technologies could lead to a race to the bottom of safety standards.[65] As rigorous safety procedures take time and resources, projects that proceed more carefully risk being out-competed by less scrupulous developers.[66][59]
+
+AI could be used to gain military advantages via autonomous lethal weapons, cyberwarfare, or automated decision-making.[59] As an example of autonomous lethal weapons, miniaturized drones could facilitate low-cost assassination of military or civilian targets, a scenario highlighted in the 2017 short film Slaughterbots.[67] AI could be used to gain an edge in decision-making by quickly analyzing large amounts of data and making decisions more quickly and effectively than humans. This could increase the speed and unpredictability of war, especially when accounting for automated retaliation systems.[59][68]
+
+Types of existential risk
+Main article: Existential risk studies
+
+Scope–severity grid from Bostrom's paper "Existential Risk Prevention as Global Priority"[69]
+An existential risk is "one that threatens the premature extinction of Earth-originating intelligent life or the permanent and drastic destruction of its potential for desirable future development".[70]
+

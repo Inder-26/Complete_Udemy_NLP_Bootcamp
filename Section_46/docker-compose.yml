@@ -1,0 +1,15 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8000:5000"
+    environment:
+      - REDIS_HOST=redis
+      - FLASK_ENV=development  # This enables auto-reload
+    volumes:
+      - .:/app                 # This links your current folder to the container
+    depends_on:
+      - redis
+
+  redis:
+    image: redis:alpine

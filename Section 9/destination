@@ -1,0 +1,16 @@
+Overwriting on the file.
+The lines whicc I have written above now will be overwritten wtih this.
+Append operation taking place
+Will add the previous line which had been overwrtten above.
+Writing my first line in the example.txt.
+This is my first line.
+I think I am writing this in a list.
+It will use a loop and a writelines function to write all entries at once.
+Overwriting on the file.
+The lines whicc I have written above now will be overwritten wtih this.
+Append operation taking place
+Will add the previous line which had been overwrtten above.
+Writing my first line in the example.txt.
+This is my first line.
+I think I am writing this in a list.
+It will use a loop and a writelines function to write all entries at once.
